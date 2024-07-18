@@ -1,0 +1,40 @@
+# Documentation Part 1: Excel Dashboard
+## 1. Introduction
+**Objective:** Provide an executive summary performance report for 2017 and compare it with 2016.
+Tools Used: Microsoft Excel
+Dataset Overview: Brief description of the dataset structure (Orders, Product, Customer, Shipment worksheets).
+
+## 2. Data Preparation
+Initial Dataset Issues: Explanation of the original dataset's inefficiencies (single worksheet, redundancy, slow computations).
+Data Modeling Approach: Steps taken to reorganize data into multiple worksheets.
+Orders Worksheet: Details about columns and data included.
+Product Worksheet: Details about columns and data included.
+Customer Worksheet: Details about columns and data included.
+Shipment Worksheet: Details about columns and data included.
+## 3. Dashboard Creation
+Key Metrics: List of key metrics included in the dashboard (sales, profit, etc.).
+Visualizations: Types of charts and graphs used.
+Sales Performance: Year-over-year comparison.
+Best and Worst Performing Cities: Visualization and insights.
+Subcategories and Products: Detailed breakdown with filters.
+Interactivity Features: Filters and slicers used for dynamic data exploration.
+Categories: Filter by product categories.
+Regions: Filter by geographical regions.
+Discount Classes: Filter by discount levels.
+## 4. Insights and Recommendations
+Performance Highlights: Summary of key insights from the dashboard.
+Areas for Improvement: Identified areas needing attention based on the data.
+Strategic Recommendations: Data-driven suggestions for the company’s expansion strategy.
+## 5. Technical Details
+Formulas and Calculations: Key formulas used in the dashboard.
+SUMIFS and COUNTIFS: Examples and their application.
+Pivot Tables: How they were set up and used.
+Data Validation: Steps taken to ensure data accuracy.
+Optimization Techniques: Methods used to enhance Excel performance.
+## 6. Conclusion
+Project Summary: Brief recap of the project’s goals, process, and outcomes.
+Future Work: Potential next steps and future improvements for the dashboard.
+## 7. Appendix
+Screenshots: Visual examples of the dashboard.
+Sample Data: Snippets of the data structure used.
+References: Links to any external resources or documentation referred to during the project.
