@@ -1,7 +1,20 @@
-# End-to-End-Data-Project: Superstore
+# SuperStore Executive Performance Insights: Superstore Overview
+End-to-End Data Project
+
+# End Goal: 
 
 ## Background
-SuperStore is an e-commerce department store specializing in reliable furniture, office supplies, and technological products. The SuperStore team is a small group, including the founder, upper management, product/warehouse managers, and salespeople. After experiencing great success in the US, the founder believes it's time to expand internationally. I joined the team in late 2017 as the Head of Analytics to support this expansion.
+Founded in 2014, SuperStore is an e-commerce department store specializing in reliable furniture, office supplies, and technological products serving thousands of custmers across the United States. In late 2017, the founder strongly believed international expansion was the next move as SuperStore has experienced sales growth YoY. 
+
+They hired a few data people including myself at the end of 2017 to help with their global expansion. I knew very well that if expansion was experienced they way they describe it, then the company would not survive on Excel sheets.
+
+### Dataset Structure
+
+## Insights Summary
+
+## Recommendations
+
+## Presentation Sample
 
 ## Part 1: Excel Dashboard & Full Revamp
 My initial task was to create an executive summary performance report for 2017, comparing it with 2016, presented in a dashboard. Previously, SuperStore's data was consolidated in a single Excel worksheet, which was inefficient and cumbersome for performance checks.
