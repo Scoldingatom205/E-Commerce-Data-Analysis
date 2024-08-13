@@ -41,27 +41,46 @@ The modernized data approach revealed critical insights into sales performance, 
 # Techical Process
 
 #### Part 1: Excel Dashboard
-- quick bullets
-- then link or refer to file for further explanation
-
-- 
-In 2017, my initial task was to create a executive summary dashboard using pivot tables in Excel to analyze 2016 performance data. Previously, SuperStore's data was consolidated in a single Excel worksheet using SUMIFS and COUNTIFS, which was inefficient and cumbersome for performance checks.
-While this provided valuable insights into our sales landscape, it was clear that the growing scale of the business required a more robust solution.
-
-To optimize this, I implemented a data model using multiple worksheets: Orders, Product, Customer, and Shipment. This reorganization made pivot tables/charts more efficient, organized the data, and reduced redundancy. The interactive dashboard I created highlights the best and worst performing cities, subcategories, and products, with filters for categories, regions, discount classes, and more.
+- **Objective:** Develop an executive summary dashboard for 2017 performance and how it compares to 2016. 
+- **Process:**
+  - Organized raw data into multiple worksheets: Orders, Product, Customer, Shipment.
+  - Used SUMIFS, COUNTIFS for initial analysis.
+  - Created interactive dashboards with filters for categories, regions, discount classes.
+- **Outcome:** Improved data organization and efficiency; enabled focused analysis on best and worst-performing cities, subcategories, and products.
 
 #### Part 2: Python ETL
--
-I embarked on transforming our data infrastructure by integrating the U.S. and international datasets into Google Cloud. Using Python in Google Colab, I performed essential ETL (Extract, Transform, Load) tasks, including data cleaning, deduplication, and merging. This ensured that the data was accurate, consistent, and ready for analysis.
+- **Objective:** Integrate U.S. and international datasets into a cloud-based infrastructure.
+- **Tools:** Google Colab, Pandas, Scikit-Learn, functions
+- **Process:**
+  - Performed data cleaning, deduplication, and merging.
+  - Standardized formats and ensured data consistency.
+  - Migrated datasets to Google Cloud for scalable processing.
+- **Outcome:** Achieved a clean, unified dataset ready for advanced analytics
 
 #### Part 3: Big Query & Data Modeling
--
-The cleaned datasets were then moved to Google BigQuery. I designed and implemented a Kimball dimensional model, which organized the data into facts and dimensions for efficient querying and reporting. This new data warehousing solution supported scalable and flexible analysis.
+- **Objective:** Design and implement a scalable data warehouse using BigQuery.
+- **Tools:** Google BigQuery, SQL
+- **Process:**
+  - Designed a Kimball Dimensional Model with facts and dimensions.
+  - Optimized tables for efficient querying and reporting.
+  - Managed historical data changes with Slowly Changing Dimensions (SCD).
+
+- **Outcome:** Enabled efficient, scalable data analysis with robust historical tracking.
 
 #### Part 4: Python Business Intelligence
--
-I applied advanced machine learning algorithms in Python, including rule association to identify key patterns and ARIMA for forecasting sales trends. Additionally, I developed a dynamic Tableau dashboard that visualized both domestic and international performance metrics, making it easier to identify trends and insights at a glance.
+- **Objective:** Apply machine learning and BI techniques for insights and forecasting.
+- **Tools:** Python (scikit-learn, ARIMA), Tableau
+- **Process:**
+  - Applied rule association to discover key sales patterns.
+  - Used ARIMA for sales trend forecasting.
+  - Developed a dynamic Tableau dashboard to visualize performance metrics.
+- **Outcome:** Provided actionable insights and accurate sales forecasts through advanced analytics.
 
 #### Part 5: Automate Pipeline
--
-To ensure continuous and efficient data operations, I automated the entire data pipeline. This included integrating automated ETL processes, which streamlined data updates and reporting, enabling real-time performance tracking and decision-making.
+- **Objective:** Ensure continuous, real-time data operations and reporting.
+- **Tools:** Python, Google Cloud Functions, BigQuery
+- **Process:**
+  - Integrated automated ETL processes for seamless data updates.
+  - Established real-time reporting with automated pipelines.
+  - Ensured end-to-end data integrity and performance tracking.
+- **Outcome:** Achieved real-time data processing, enabling proactive decision-making.
