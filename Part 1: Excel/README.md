@@ -1,4 +1,6 @@
 # Documentation Part 1: Excel Dashboard
+Feel free to check it out yourself, I have attached a copy of it above called Excel Final Dashboard. :) 
+
   - **Objective:** Develop an executive summary dashboard for 2017 performance and how it compares to 2016                               
   - **Dataset Overview:** 10,000 row transactions table.
 
