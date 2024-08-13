@@ -1,14 +1,15 @@
 # Documentation Part 1: Excel Dashboard
-## 1. Introduction
-  **Objective:** Provide an executive summary performance report for 2017 and compare it with 2016.                 
-  **Tools Used:** Microsoft Excel                  
-  **Dataset Overview:** Dataset was one simple transactions table.
+# Introduction
+  - **Objective:** Provide an executive summary performance report for 2017 and compare it with 2016.                 
+  - **Tools Used:** Microsoft Excel                  
+  - **Dataset Overview:** 10,000 transactions table.
 
   ![image](https://github.com/user-attachments/assets/2a476b3a-48e6-4135-a5fa-e8cb7e5dc875)
 (Headers + first five rows)
 
-## 2. Data Preparation
-**Initial Dataset Issues:** The original dataset was stored in a single worksheet, leading to inefficiencies such as redundancy, slow computations, and difficulty in data management. By implementing data modeling and separating the data into multiple worksheets (Orders, Product, Customer, Shipment), we optimized Excel's performance, reduced redundancy, and improved data clarity. This approach made computations faster, streamlined data management, and facilitated more efficient analysis using pivot tables and charts.
+# Data Preparation
+**Initial Dataset Issues:** The original dataset was stored in a single Excel worksheet, leading to inefficiencies such as redundancy, slow computations, and difficulty in data management. 
+**Solution:** Implemented data modeling by separating the data into multiple worksheets (Orders, Product, Customer, Shipment), we optimized Excel's performance, reduced redundancy, and improved data clarity. This approach made computations faster, streamlined data management, and facilitated more efficient analysis using pivot tables and charts.
 
 
 **Data Modeling Approach:** Connected relationships using Primary Keys (PK) and Foreign Keys (FK).
