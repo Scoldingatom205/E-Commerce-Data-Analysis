@@ -65,7 +65,7 @@ The modernized data approach revealed critical insights into sales performance, 
 
 - **Outcome:** Enabled efficient, scalable data analysis with robust historical tracking.
 
-#### Part 4: Python Business Intelligence
+#### Part 4: Tableau Dashboard + Python Business Intelligence
 - **Objective:** Apply machine learning and BI techniques for insights and forecasting.
 - **Tools:** Python (scikit-learn, ARIMA), Tableau
 - **Process:**
@@ -74,11 +74,6 @@ The modernized data approach revealed critical insights into sales performance, 
   - Developed a dynamic Tableau dashboard to visualize performance metrics.
 - **Outcome:** Provided actionable insights and accurate sales forecasts through advanced analytics.
 
-#### Part 5: Automate Pipeline
-- **Objective:** Ensure continuous, real-time data operations and reporting.
-- **Tools:** Python, Google Cloud Functions, BigQuery
-- **Process:**
-  - Integrated automated ETL processes for seamless data updates.
-  - Established real-time reporting with automated pipelines.
-  - Ensured end-to-end data integrity and performance tracking.
-- **Outcome:** Achieved real-time data processing, enabling proactive decision-making.
+## Future Work
+- **Automate the Pipeline** using and Orchestration tool like Mage or Airflow
+- **Implement Quality Checks** using small test data to see if result is what is intended
