@@ -3,7 +3,7 @@
 # Background
 Founded in 2014, SuperStore quickly became a leader in e-commerce, specializing in furniture, office supplies, and technology. By late 2017, the company’s impressive year-over-year growth signaled readiness for international expansion. To realize this vision, SuperStore needed to upgrade its data infrastructure to support global-scale analysis and reporting.
 
-## Answering these Key Business Questions:
+## Key Business Questions:
 - How do we upgrade the data infrastructure so that Superstore can get reports faster?
 - How are sales performing in each continent, category, segment, or subcategory year-over-year?
 - Which products are costing us? Which are performing well?
