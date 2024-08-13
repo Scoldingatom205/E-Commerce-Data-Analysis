@@ -42,9 +42,7 @@ The modernized data approach revealed critical insights into sales performance, 
 
 #### Part 1: Excel Dashboard
 - **Objective:** Develop an executive summary dashboard for 2017 performance and how it compares to 2016. 
-- **Process:**
   - Organized raw data into multiple worksheets: Orders, Product, Customer, Shipment.
-  - Used SUMIFS, COUNTIFS for initial analysis.
   - Created interactive dashboards with filters for categories, regions, discount classes.
 - **Outcome:** Improved data organization and efficiency; enabled focused analysis on best and worst-performing cities, subcategories, and products.
 
