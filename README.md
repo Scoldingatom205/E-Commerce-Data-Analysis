@@ -20,7 +20,8 @@ Appended, data modeling, and analyzed two datasets:
 - International Data: 50,000 rows
   
 #### Kimball Dimensional Model:
-![image](https://github.com/user-attachments/assets/158437d7-d54e-4edd-bc78-a2b36668c640)
+![image](https://github.com/user-attachments/assets/3aa766ac-4d7c-4ce6-9997-44c80821e35a)
+
 - Simplifies querying for end-users.
 - Improves query performance for aggregations & complexity of joins.
 - Scalability - Handles large volumes of data.
