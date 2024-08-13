@@ -16,7 +16,8 @@
   
 
 ## Data Preparation
-- Implemented data modeling by separating the data into multiple worksheets (Orders, Product, Customer, Shipment) and creating relationship between them using Primary Keys (PK) and Foreign Keys (FK).. This approach made computations faster, streamlined data management, and facilitated more efficient analysis using pivot tables and charts.
+Implemented data modeling by separating the data into multiple worksheets (Orders, Product, Customer, Shipment) and creating relationship between them using Primary Keys (PK) and Foreign Keys (FK).
+This approach made computations faster, streamlined data management, and facilitated more efficient analysis using pivot tables and charts.
   
 ![image](https://github.com/user-attachments/assets/bc815870-1da8-4df5-9793-a66591df39a7)
 
