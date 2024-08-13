@@ -15,7 +15,7 @@ Founded in 2014, SuperStore quickly became a leader in e-commerce, specializing 
 Transform SuperStore's data operations from a traditional Excel-based approach to a sophisticated, cloud-driven analytics system to enhance performance tracking, support international expansion, and enable data-driven decision-making.
 
 ### Dataset Structure
-Appended, data modeling, and analyzed two datasets:
+Appended, data modeled, and analyzed two datasets:
 - United States Data: 10,000 rows
 - International Data: 50,000 rows
   
