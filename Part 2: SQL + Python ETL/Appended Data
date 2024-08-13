@@ -1,0 +1,66 @@
+--harmonized view for us_data
+CREATE OR REPLACE VIEW `ecommerce-project-430519.raw_data.harmonized_us_data` AS
+SELECT
+  `Order ID` as order_id,
+  `Order Date`as order_date,
+  CAST(NULL AS STRING) order_priority,
+  CAST(NULL AS FLOAT64) shipping_cost,
+  `Ship Date` as ship_date,
+  `Ship Mode` as ship_mode,
+  `Customer ID` as customer_id,
+  `Customer Name` as customer_name,
+  Segment,
+  Country,
+  City,
+  State,
+  Region,
+  `Product ID` as product_id,
+  `Product Name` as product_name,
+  Category,
+  `Sub-Category` as sub_category,
+  sales,
+  Quantity,
+  Discount,
+  Profit,
+  CAST(NULL AS STRING) AS continent,
+  NULL AS weeknum
+FROM
+    `ecommerce-project-430519.raw_data.us_data`;
+
+
+
+--harmonized view for global_data
+CREATE OR REPLACE VIEW `ecommerce-project-430519.raw_data.harmonized_global_data` AS
+SELECT
+  OrderID as order_id,
+  PARSE_DATE('%B %d, %Y', SUBSTR(OrderDate, STRPOS(OrderDate, ' ') + 1)) as order_date,
+  OrderPriority as order_priority,
+  ShippingCost,
+  PARSE_DATE('%B %d, %Y', SUBSTR(ShipDate, STRPOS(ShipDate, ' ') + 1)) as ship_date,
+  ShipMode as ship_mode,
+  CustomeID as customer_id,
+  CustomerName as customer_name,
+  Segment,
+  Country,
+  City,
+  State,
+  Region,
+  ProductID as product_id,
+  ProductName as product_name,
+  Category,
+  SubCategory as sub_category,
+  sales,
+  Quantity,
+  Discount,
+  Profit,
+  Market2 as continent,
+  weeknum
+FROM
+    `ecommerce-project-430519.raw_data.global_data`;
+
+
+--union the the harmonized data
+CREATE OR REPLACE TABLE `ecommerce-project-430519.raw_data.combined_data` AS
+SELECT * FROM `ecommerce-project-430519.raw_data.harmonized_us_data`
+UNION ALL
+SELECT * FROM `ecommerce-project-430519.raw_data.harmonized_global_data`;
