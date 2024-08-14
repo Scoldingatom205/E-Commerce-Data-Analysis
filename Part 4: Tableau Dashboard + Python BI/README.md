@@ -24,18 +24,22 @@ This section showcases the integration of advanced data analytics and visualizat
 
 *Python Code: Included in the repository (apriori_model.py).*
 
-## Tableau Dashboard
+## Tableau Dashboards
 #### Executive Overview
-  Objective: Provide a high-level summary of the company's performance in 2021.
-  KPIs Visualized:
+
+**Objective:** Provide a high-level summary of the company's performance in 2021.
+  ** KPIs Visualized:
   Total Sales: $4,300,041 (+26.25% YoY)
   Profit: $504,166 (+23.89% YoY)
   Orders: 8,831 (+28.69% YoY)
   Customers: 6,321 (+19.49% YoY)
-  Key Visuals:
-  Sales by Continent: Shows sales distribution across different regions, highlighting the strongest growth in APAC and EMEA.
-  Monthly Sales by Segment: Tracks sales trends across Consumer, Corporate, and Home Office segments.
-  Sub-Category by Sales: Identifies top-performing sub-categories like Phones, Copiers, and Bookcases.
+  
+  **Key Visuals:**
+  - Sales by Continent: Shows sales distribution across different regions, highlighting the strongest growth in APAC and EMEA.
+  - Monthly Sales by Segment: Tracks sales trends across Consumer, Corporate, and Home Office segments.
+  -Sub-Category by Sales: Identifies top-performing sub-categories like Phones, Copiers, and Bookcases.
+![image](https://github.com/user-attachments/assets/d5e9bab6-fcfd-41a0-ab58-899520851807)
+
 
 #### Product Performance
   Objective: Deep dive into product-level performance to identify top-selling and underperforming products.
@@ -43,10 +47,15 @@ This section showcases the integration of advanced data analytics and visualizat
   Insights:
   Products like Phones and Copiers lead in sales.
   Underperforming products and categories are highlighted for strategic realignment.
+![image](https://github.com/user-attachments/assets/f5e4534f-3a1b-47ce-b3de-d6f242fe1f97)
+
+
 #### Customer Performance
   Objective: Analyze customer segments and their contribution to overall business performance.
   Filters: Year, Segment, Region, and Continent.
   Insights:
   Consumer segment continues to drive the majority of sales.
   Regional performance indicates where to focus future marketing efforts.
+
+![image](https://github.com/user-attachments/assets/47b49752-b123-4c77-a26f-69dea2c1ef5e)
 
