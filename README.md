@@ -69,8 +69,7 @@ The modernized data approach revealed critical insights into sales performance, 
 - **Objective:** Apply machine learning and BI techniques for insights and forecasting.
 - **Tools:** Python (scikit-learn, ARIMA), Tableau
 - **Process:**
-  - Applied rule association to discover key sales patterns.
-  - Used ARIMA for sales trend forecasting.
+  - Conducted market basket analysis with Apriori and sales forecasting with ARIMA.
   - Developed a dynamic Tableau dashboard to visualize performance metrics.
 - **Outcome:** Provided actionable insights and accurate sales forecasts through advanced analytics.
 
