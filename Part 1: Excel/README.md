@@ -68,6 +68,7 @@ This approach made computations faster, streamlined data management, and facilit
 
 ## Final Dashboard
 Interactive dashboard that answers ad-hoc business questions. The dashboard contains 5 KPIs across the top, 3 charts, and one graph. It had interactive features like dynamic buttons that alter the charts to show most/least by sales/profit and there are slicers for any more specific analysis.
-![image](https://github.com/user-attachments/assets/2fd6e204-3a43-4bd5-b869-999e42603f9a)
+![image](https://github.com/user-attachments/assets/f2baad5e-3a61-485b-9730-b8c24b51c310)
+
 
 
