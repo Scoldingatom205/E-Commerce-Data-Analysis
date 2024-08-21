@@ -33,7 +33,7 @@ This approach made computations faster, streamlined data management, and facilit
 ## Insights Summary
 
 **What are the key drivers of revenue growth in 2017?**
-- Home Office segment, Technology category, Central region, First Class shipping, and High Discount Class led revenue growth percentages.
+- Home Office segment, Technology category, Central region, and First Class shipping led revenue growth percentages.
   
 **Which segments, categories, and regions are the most profitable?** 
   - Segment: Consumer (49% of total profit)
