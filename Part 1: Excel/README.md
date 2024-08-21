@@ -21,7 +21,7 @@ Feel free to check it out yourself, I have attached a copy of it above called Ex
 Implemented data modeling by separating the data into multiple worksheets (Orders, Product, Customer, Shipment) and creating relationship between them using Primary Keys (PK) and Foreign Keys (FK).
 This approach made computations faster, streamlined data management, and facilitated more efficient analysis using pivot tables and charts.
   
-![image](https://github.com/user-attachments/assets/42602c82-8efa-4599-b2ee-1b5f7085814e)
+![image](https://github.com/user-attachments/assets/eb4d987d-f26f-455c-8a67-e996b78069fd)
 
 
 
