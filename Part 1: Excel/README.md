@@ -21,7 +21,9 @@ Feel free to check it out yourself, I have attached a copy of it above called Ex
 Implemented data modeling by separating the data into multiple worksheets (Orders, Product, Customer, Shipment) and creating relationship between them using Primary Keys (PK) and Foreign Keys (FK).
 This approach made computations faster, streamlined data management, and facilitated more efficient analysis using pivot tables and charts.
   
-![image](https://github.com/user-attachments/assets/bc815870-1da8-4df5-9793-a66591df39a7)
+![image](https://github.com/user-attachments/assets/42602c82-8efa-4599-b2ee-1b5f7085814e)
+
+
 
 **Transactions Worksheet:** Order ID (FK), Customer ID (FK), Product ID (FK), Segment, Sales, Quantity, Discount, Profit                 
 **Product Worksheet:** Product ID (PK), Category, Sub-Category, Product Name            
@@ -68,7 +70,8 @@ This approach made computations faster, streamlined data management, and facilit
 
 ## Final Dashboard
 Interactive dashboard that answers ad-hoc business questions. The dashboard contains 5 KPIs across the top, 3 charts, and one graph. It had interactive features like dynamic buttons that alter the charts to show most/least by sales/profit and there are slicers for any more specific analysis.
-![image](https://github.com/user-attachments/assets/f2baad5e-3a61-485b-9730-b8c24b51c310)
+![image](https://github.com/user-attachments/assets/8216a0bd-e98d-4766-ad4c-4c1c11f3e58b)
+
 
 
 
