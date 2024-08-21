@@ -32,31 +32,29 @@ This approach made computations faster, streamlined data management, and facilit
 
 ## Insights Summary
 
-**1. What are the key drivers of revenue growth in 2017?**
+**What are the key drivers of revenue growth in 2017?**
 - Home Office segment, Technology category, Central region, First Class shipping, and High Discount Class led revenue growth percentages.
   
-**2. Which segments, categories, and regions are the most profitable?** 
+**Which segments, categories, and regions are the most profitable?** 
   - Segment: Consumer (49% of total profit)
   - Category: Technology (54% of total profit)
   - Region: East (39% of total profit); Central region saw a notable 148% profit growth.there lets keep it up.
     
-**3. What sub-categories, cities, and products are experiencing the highest and worst growth rates in sales?**
-  - Sub-categories - Highest: Appliances (64.8%), Art (48.7%); Lowest: Envelopes (-28.6%), Machines (-22.1%)
-  - Cities - Highest: Pheonix (342.1%), Philadelphia (134.8%) ; Lowest: Miami(-99.7%), Burlington(-99.2%)
-  - Products - Highest: GBC DocuBind TL300 (83.6%), Fellowes PB500 (69.0%); Lowest: way too many!
+**How do sales performance vary across different sub-categories, cities, and products?** !!!!!
+  - Sub-categories - 
+  - Cities - 
+  - Products -
+
+
+**What sub-categories should we reconsider keeping?**
+  - idk yet
     
-**4. How do different shipping methods and discount classes impact sales and profitability?**
+**What is the impact of different shipping methods on sales and profit margins?**
   - Shipping: First Class showed the highest performance with 117% profit growth; Standard Class remains dominant (52% of all profit and 53% of all revenue), though with declining profit.
   - Discount: Discounts below 20% or no discounts are most profitable; deeper discounts, while generating higher sales, reduce profitability.
-    
-**5. What are the key trends in revenue over time, and how do they correlate with business cycles?**
+
+**What does the 2017 performance indicate about potential strategies and targets for 2018? What were the trends?**
   - Sales surged from August to December, mirroring 2016 patterns but with higher revenue in most months of 2017.
-
-**6. Which cities and sub-categories should we focus on for future expansion?**
-  - Sub-categories: Prioritize Technology (Phones, Copiers, Accessories).
-  - Cities: Target Auburn, Jackson, Milwaukee, and Minneapolis for expansion.
-
-**7. How does our performance in 2017 compare with the previous year, and what does that indicate for 2018?**
   - Performance improved across the board. More revenue, more profit, and more customers!
   - If similar KPI trends continue and if the line chart tells us anything is that sales will continue to rise in 2018.
 
