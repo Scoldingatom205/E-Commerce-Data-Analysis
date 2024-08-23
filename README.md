@@ -76,5 +76,5 @@ A comprehensive interactive [dashboard](https://www.youtube.com/watch?v=DsPRlDSl
   - Developed a dynamic Tableau dashboard to visualize performance metrics and answer ANY ad-hoc business question.
 
 ## Future Work
-- **Automate the Pipeline** using and Orchestration tool like Mage or Airflow
+- **Automate the Pipeline** using Orchestration on Google or tools like Airflow
 - **Implement Quality Checks** using small test data to see if result is what is intended
