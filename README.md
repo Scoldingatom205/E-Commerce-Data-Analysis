@@ -22,56 +22,58 @@ Appended, data modeled, and analyzed two datasets:
 #### Kimball Dimensional Model:
 ![image](https://github.com/user-attachments/assets/3aa766ac-4d7c-4ce6-9997-44c80821e35a)
 
+*Rewrite below*
 - Simplifies querying for end-users.
 - Improves query performance for aggregations & complexity of joins.
 - Scalability - Handles large volumes of data.
 - Manages historical data changes with Slowly Changing Dimensions (SCD).
-- Seamless Integration with BI Tools
+- Seamless Integration with Tableau
 - Ensures data integrity, data quality, consistency, and reduces redundancy.
+
 
 
 ## Insights Summary
 The modernized data approach revealed critical insights into sales performance, customer behavior, and market trends. This comprehensive analysis enabled SuperStore to identify growth opportunities and make strategic decisions with greater confidence.
 
-## Recommendations
-- Adopt Cloud Solutions: Continue leveraging Google Cloud Platform (GCP) for its scalability, reliability, and advanced analytics capabilities.
-- Embrace Advanced Analytics: Utilize machine learning models and advanced BI techniques to gain deeper insights into customer behavior and sales trends.
-- Automate Reporting: Implement automated data pipelines to streamline processes and ensure real-time reporting and analysis.
+## Final Dashboard
+A comprehensive interactive [dashboard](https://www.youtube.com/watch?v=DsPRlDSlaSQ) encapsulating Superstore's performance, highlighting key insights into customer profitability, product performance, and overall sales trends (using navigation buttones). The Executive Summary dashboard offers a YoY comparison, the Product and Order Performance dashboard identifies top and underperforming products, and the Customer Performance dashboard analyzes customer segments, revealing profitable and unprofitable accounts. 
 
-# Techical Process
+*These insights equip stakeholders with actionable data to optimize business strategies, improve customer retention, and drive growth.*
 
+![image](https://github.com/user-attachments/assets/ffc20586-fbfc-47a5-8f80-f8c0f65de756)
+
+
+## Technical Process
 #### Part 1: Excel Dashboard
-- **Objective:** Develop an executive summary dashboard for 2017 performance and how it compares to 2016. 
+- **Objective:** Develop an executive summary dashboard for stakeholders to compare YoY sales performance. 
   - Organized raw data into multiple worksheets: Orders, Product, Customer, Shipment.
-  - Created interactive dashboards with filters for categories, regions, discount classes.
-- **Outcome:** Improved data organization and efficiency; enabled focused analysis on best and worst-performing cities, subcategories, and products.
+  - Data modeled and created pivot tables/charts
+  - Built interactive dashboard using pivot charts with filters for categories, regions, segments, and ship mode.
+  - Improved data organization and efficiency; enabled focused analysis on best and worst-performing cities, subcategories, and products.
 
 #### Part 2: Python ETL
-- **Objective:** Integrate U.S. and international datasets into a cloud-based infrastructure.
-- **Tools:** Google Colab, Pandas, Scikit-Learn, functions
-- **Process:**
+- **Objective:** Integrate U.S. and international datasets into a cloud-based infrastructure remodeling from excel-based operations.
+- **Tools:** Google Colab, Pandas, functions, numpy
   - Performed data cleaning, deduplication, and merging.
-  - Standardized formats and ensured data consistency.
-  - Migrated datasets to Google Cloud for scalable processing.
-- **Outcome:** Achieved a clean, unified dataset ready for advanced analytics
+  - Ensured unique product, order, and customer id's according to several dimensions to improve data integrity.
+  - Migrated datasets to Google Cloud for scale.
 
 #### Part 3: Big Query & Data Modeling
 - **Objective:** Design and implement a scalable data warehouse using BigQuery.
 - **Tools:** Google BigQuery, SQL
-- **Process:**
   - Designed a Kimball Dimensional Model with facts and dimensions.
+    - Fact: Transactions
+    - Slowly Changing Dimensions: Orders, Products, Customers
   - Optimized tables for efficient querying and reporting.
-  - Managed historical data changes with Slowly Changing Dimensions (SCD).
-
-- **Outcome:** Enabled efficient, scalable data analysis with robust historical tracking.
+  - Seamless integration to Tableau
 
 #### Part 4: Tableau Dashboard + Python Business Intelligence
 - **Objective:** Apply machine learning and BI techniques for insights and forecasting.
-- **Tools:** Python (scikit-learn, ARIMA), Tableau
-- **Process:**
-  - Conducted market basket analysis with Apriori and sales forecasting with ARIMA.
-  - Developed a dynamic Tableau dashboard to visualize performance metrics.
-- **Outcome:** Provided actionable insights and accurate sales forecasts through advanced analytics.
+- **Tools:** Python (scikit-learn, ARIMA, apriori, cluster), Tableau Public
+  - Discovered inconclusive clustering results using elbow method and multiple categories.
+  - Conducted market basket analysis focused on sub-categories instead of products with Apriori.
+  - Forceasted sales with ARIMA for the following 12 months for categories, segment, and continent using historical data.
+  - Developed a dynamic Tableau dashboard to visualize performance metrics and answer ANY ad-hoc business question.
 
 ## Future Work
 - **Automate the Pipeline** using and Orchestration tool like Mage or Airflow
