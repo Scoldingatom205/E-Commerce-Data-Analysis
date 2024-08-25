@@ -33,12 +33,19 @@ Appended, data modeled, and analyzed two datasets:
 
 
 
-## Insights Summary
-The modernized data approach revealed critical insights into sales performance, customer behavior, and market trends. This comprehensive analysis enabled SuperStore to identify growth opportunities and make strategic decisions with greater confidence.
+## General Insights Summary
+The purpose of this insights summary is to answer the key business questions using the dashboard I built and draw broad but valuable insights that any business stakeholder would need to know.
 
 #### Executive Summary Dashboard Insights:
+- Global Expansion Growth: 208% increase in sales, 166% increase in profit, 168% increase in orders, 194% increase in customers from 2017 (only US) to 2018 when SuperStore opened their ecommerce store globally.
+- Continent: Prior to expansion, NA (or just USA) experienced steady growth of about 20% but as it SuperStore went global, all metrics dropped by as little as 32%. But since 2020, it has quickly regained its growth BUT 2021 has only barely performed better(less than 5%) across all metrics than 2017 (when it was only USA). Comparing performance in 2018 vs 2021 all metrics have roughly doubled for all continents except NA. APAC currently leads in all metrics with EU trialing closely behind. Although continents are performing far better than NA, no country by itself is performing better than USA across all metrics with the USA still being the dominating country by a long shot.
+- Sub Category Analysis: Phones and Chairs have basically led every year in volume and sales. Sales across all subcategories have increased except in 2015 which was a bad year for 50% of subcategories underperforming 2014 performance. 
+- Segment: Consumer makes more than 50% of all Metrics and product categories.
+- Category: Seems like all categories experience parallel ups and downs throughout the year for every year. Notibly, weeks 31-38 and 45-47 are peaks for all categories. The end of Q4 seems to plummet or plateau a bit although still higher than the first 6 months. I guess, second half of year does perform better than first half of the year. Technology leads in Sales and Profit despite not leading in order volume or number of customers. Furniture actually experienced the biggest increase in sales nad profit during the expansion (2018).
+- Date and Time: Since 2018, there has been a steady increase from Jan to June and then suddenly all metrics fall considerably in July. SuperStore follows typical sales trends with it gradually increasing by quarter and then seeing a considerable increase in Q4. It is worth mentioning that peak weeks are 46-52 in Q4, because in week 53 it drops significanty. As low as July performances. September by itself experiences alot of metrics! For the past 2 years, Tuesdays experience significant drops across all metrics then quickly bounces back by Wednesday and the end of the week.
 Sales Growth: Highlight any notable increases or decreases in sales compared to the previous year.
 Regional Performance: Identify regions or segments that are performing exceptionally well or underperforming.
+
 Sales Trends: Highlight key sales trends over time, such as which months consistently perform better or how certain regions have grown year-over-year.
 
 
