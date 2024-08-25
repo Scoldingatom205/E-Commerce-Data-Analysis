@@ -5,11 +5,18 @@ Founded in 2014, SuperStore quickly became a leader in e-commerce, specializing 
 
 ## Key Business Questions:
 - How do we upgrade the data infrastructure so that Superstore can get reports faster?
-- How are sales performing in each continent, category, segment, or subcategory year-over-year?
+- How are sales performing year-over-year?
+  - Partition performance by continent, category, segment, and subcategory?
+  - What are the growth trends not only for sales but for customers, profit, and orders?
 - Which products are costing us? Which are performing well?
+  - What product, categories, and sub categories are most profitable?
+  - What is the relationship between discount levels and profit ratios, and how does this vary by product or category?
+  - How does order priority and shipping mode affect KPI performance? How do they affect shipping trends?
 - Who are our most profitable customers?
+  - What age demographic is most profitable?
+  - What RFM cluster is most profitable?
 - What does our sales projection look like for next year by continent, category, and segment?
-- What subcategories or products are most sold together?
+- What subcategories or products are most sold together and how can this information be used to optimize cross-selling strategies?
 
 ### End Goal: 
 Transform SuperStore's data operations from a traditional Excel-based approach to a sophisticated, cloud-driven analytics system to enhance performance tracking, support international expansion, and enable data-driven decision-making.
