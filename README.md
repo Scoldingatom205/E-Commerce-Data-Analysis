@@ -18,6 +18,8 @@ Transform SuperStore's data operations from a traditional Excel-based approach t
 Appended, data modeled, and analyzed two datasets:
 - United States Data: 10,000 rows
 - International Data: 50,000 rows
+- 2014-2021 (8 years)
+- Rows represent each product bought inside of an order
   
 #### Kimball Dimensional Model:
 ![image](https://github.com/user-attachments/assets/3aa766ac-4d7c-4ce6-9997-44c80821e35a)
@@ -45,35 +47,27 @@ A comprehensive interactive [dashboard](https://www.youtube.com/watch?v=DsPRlDSl
 
 ## Technical Process
 #### Part 1: Excel Dashboard
-- **Objective:** Develop an executive summary dashboard for stakeholders to compare YoY sales performance. 
-  - Organized raw data into multiple worksheets: Orders, Product, Customer, Shipment.
-  - Data modeled and created pivot tables/charts
-  - Built interactive dashboard using pivot charts with filters for categories, regions, segments, and ship mode.
-  - Improved data organization and efficiency; enabled focused analysis on best and worst-performing cities, subcategories, and products.
+- **Objective:** Created an executive summary dashboard for stakeholders to compare YoY sales performance as my first assignment at SuperStore in 2017.
+  - Organized raw data into multiple worksheets (Transactions, Product, Customer, Order details) and **data modeled**.
+  - Built an interactive dashboard using pivot charts with slicers across four dimensions that enabled focused analysis on best and worst-performing cities, subcategories, and products.
 
 #### Part 2: Python ETL
 - **Objective:** Integrate U.S. and international datasets into a cloud-based infrastructure remodeling from excel-based operations.
-- **Tools:** Google Colab, Pandas, functions, numpy
   - Performed data cleaning, deduplication, and merging.
   - Ensured unique product, order, and customer id's according to several dimensions to improve data integrity.
-  - Migrated datasets to Google Cloud for scale.
+  - Migrated datasets to **Google Cloud **for scalable backend.
 
 #### Part 3: Big Query & Data Modeling
-- **Objective:** Design and implement a scalable data warehouse using BigQuery.
-- **Tools:** Google BigQuery, SQL
-  - Designed a Kimball Dimensional Model with facts and dimensions.
-    - Fact: Transactions
-    - Slowly Changing Dimensions: Orders, Products, Customers
-  - Optimized tables for efficient querying and reporting.
-  - Seamless integration to Tableau
+- **Objective:** Designed and implemented a scalable data warehouse using **BigQuery** for automated reporting.
+  - Designed a **Kimball Dimensional Model** with fact and slowly changing dimension tables for efficient querying and reporting.
+  - Seamless integration to Tableau to facilitate automated reporting and secure data keeping.
 
-#### Part 4: Tableau Dashboard + Python Business Intelligence
+#### Part 4: Tableau Dashboard + Python BI/ML
 - **Objective:** Apply machine learning and BI techniques for insights and forecasting.
-- **Tools:** Python (scikit-learn, ARIMA, apriori, cluster), Tableau Public
   - Discovered inconclusive clustering results using elbow method and multiple categories.
-  - Conducted market basket analysis focused on sub-categories instead of products with Apriori.
-  - Forceasted sales with ARIMA for the following 12 months for categories, segment, and continent using historical data.
-  - Developed a dynamic Tableau dashboard to visualize performance metrics and answer ANY ad-hoc business question.
+  - Conducted market basket analysis focused on sub-categories instead of products with **Apriori**.
+  - Forceasted sales with **ARIMA** for the following 12 months for categories, segment, and continent using historical data.
+  - Developed a dynamic **Tableau** dashboard to visualize performance metrics and answer ANY ad-hoc business question.
 
 ## Future Work
 - **Automate the Pipeline** using Orchestration on Google or tools like Airflow
