@@ -31,21 +31,46 @@ Appended, data modeled, and analyzed two datasets:
 #### Kimball Dimensional Model:
 ![image](https://github.com/user-attachments/assets/3aa766ac-4d7c-4ce6-9997-44c80821e35a)
 
-*Rewrite below*
-- Simplifies querying for end-users.
-- Improves query performance for aggregations & complexity of joins.
-- Scalability - Handles large volumes of data.
-- Manages historical data changes with Slowly Changing Dimensions (SCD).
-- Seamless Integration with Tableau
-- Ensures data integrity, data quality, consistency, and reduces redundancy.
-
 
 
 ## Insights Summary
 The modernized data approach revealed critical insights into sales performance, customer behavior, and market trends. This comprehensive analysis enabled SuperStore to identify growth opportunities and make strategic decisions with greater confidence.
 
+#### Executive Summary Dashboard Insights:
+Sales Growth: Highlight any notable increases or decreases in sales compared to the previous year.
+Regional Performance: Identify regions or segments that are performing exceptionally well or underperforming.
+Sales Trends: Highlight key sales trends over time, such as which months consistently perform better or how certain regions have grown year-over-year.
+
+
+#### Product and Order Performance Dashboard Insights:
+Top-Performing Products: Mention which products have the highest sales and profit margins.
+Areas of Concern: Identify products or categories with low profit ratios or high discount rates that may need attention.
+Product Performance: Identify which products or categories consistently contribute the most to revenue and profit, and which ones are dragging performance down.
+
+
+##### Customer Performance Dashboard Insights:
+Customer Profitability: Identify the most profitable customer segments and those that are unprofitable.
+RFM Segmentation: Highlight any patterns in customer buying behavior that could inform marketing strategies.
+Customer Segmentation: Discuss the profitability of different customer segments, and how this information can be used to refine marketing and sales strategies.
+
+## Recommendations
+- **Optimize Inventory:** Consider discontinuing product that are consistently underperforming such as ... to name a few.
+- **Target Marketing Efforts:** Recommend targeting the most profitable customer segments with tailored marketing campaigns, while also looking at ways to convert unprofitable customers into profitable ones.
+- **Improve Operational Efficiency:** If certain regions or shipping methods are less profitable, propose investigating operational inefficiencies or renegotiating terms with suppliers or logistics providers.
+- Focus on High-Performing Regions: Allocate more resources to regions with the highest growth, like the East region.
+  Revise Discount Strategies: Review and adjust discount policies for low-profit categories to improve margins.
+- Enhance Customer Retention Programs: Develop targeted retention strategies for unprofitable customers to increase lifetime value.
+- Product Line Optimization: Consider phasing out or re-pricing products with consistently low profitability to streamline offerings.
+
+
+
 ## Final Dashboard
-A comprehensive interactive [dashboard](https://www.youtube.com/watch?v=DsPRlDSlaSQ) encapsulating Superstore's performance, highlighting key insights into customer profitability, product performance, and overall sales trends (using navigation buttones). The Executive Summary dashboard offers a YoY comparison, the Product and Order Performance dashboard identifies top and underperforming products, and the Customer Performance dashboard analyzes customer segments, revealing profitable and unprofitable accounts. 
+These Tableau dashboards are designed to provide comprehensive, dynamic insights into Superstore’s performance, giving stakeholders the felxibility to derive tailored insights that align with their specific business questions/objectives. By analyzing sales, product performance, and customer profitability, the dashboards enable data-driven decisions that can optimize marketing, inventory, and operational strategies. Here is a small overview of the dashboards:
+- **Executive Summary Dashboard:** Offers a year-over-year comparison of key metrics to quickly assess overall performance.
+- **Product and Order Performance Dashboard:** Identifies top and underperforming products, enabling data-driven decisions on inventory and marketing strategies.
+- **Customer Performance Dashboard:** Analyzes customer segments to distinguish between profitable and unprofitable customers, guiding targeted retention efforts.
+
+Feel free to play around with it yourself: [Tableau Dashboard](https://www.youtube.com/watch?v=DsPRlDSlaSQ) 
 
 *These insights equip stakeholders with actionable data to optimize business strategies, improve customer retention, and drive growth.*
 
