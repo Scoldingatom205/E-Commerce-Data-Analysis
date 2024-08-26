@@ -59,9 +59,6 @@ The purpose of this insights summary is to answer the key business questions usi
 - **Segment Profitability:** The Home Office segment, particularly in Africa and North America, has the highest profit ratio at 8.82%.
 - **Customer Combinations:** Female Big Spenders aged 25-34 in North America are the most profitable customer segment, with a 29.05% profit ratio. Corporate segment males in North America, aged 55+, also show a strong 20.10% profit ratio.
 
-#### Business Intelligence Insights
-- 
-
 ## Actionable Recommendations
 The insights above equip stakeholders with actionable data to optimize business strategies, improve customer retention, and drive growth. Here are my recommendations.
 - **Expand Focus on APAC and EU:** Given their strong performance post-expansion, allocate more resources and marketing efforts to these regions to further capitalize on their growth potential.
