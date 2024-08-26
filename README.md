@@ -53,7 +53,7 @@ The purpose of this insights summary is to answer the key business questions usi
 - **Shipping Trends:** LATAM leads in late deliveries, while North America has the lowest. Medium priority orders are most common but less profitable than critical priority, which also boasts the highest on-time delivery rate.
 - **Ship Mode Efficiency:** Standard and First-Class shipping modes are the most profitable. Same Day shipping, though rare, is highly reliable, suggesting potential for pricing adjustments.
   
-##### Customer Performance Dashboard Insights:
+#### Customer Performance Dashboard Insights:
 - **RFM Segmentation:** Big Spenders in EU and NA are highly profitable, with EU leading in profit ratio (18.50%). Emerging Customers in APAC and EU are also showing promising profitability.
 - **Age Buckets:** Middle-aged (25-34) customers are the most profitable, particularly in APAC and EU. In North America, the Pre-Retirement segment (55+) is most profitable with a 14.29% profit ratio.
 - **Segment Profitability:** The Home Office segment, particularly in Africa and North America, has the highest profit ratio at 8.82%.
