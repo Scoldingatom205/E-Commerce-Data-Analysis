@@ -17,6 +17,19 @@ This section showcases the integration of advanced data analytics and visualizat
 - **Insights:**
 
 *Python Code: Included in the repository (Sales Forecast Code.py).*
+#### Continent
+<img src="https://github.com/user-attachments/assets/e917c9e6-3363-47a2-aad9-91bb48a803ba" width="600px">
+<img src="https://github.com/user-attachments/assets/a9d76af5-75b4-4cae-8c69-3ff327283c85" width="600px">
+
+#### Product Category
+<img src="https://github.com/user-attachments/assets/649366a6-4cee-41c3-b430-94c86162c99c" width="600px">
+
+
+
+#### Customer Segment
+<img src="https://github.com/user-attachments/assets/5e91a1cd-ea44-4b71-b6ca-e2779fc4b69a" width="600px">
+
+
 
 #### Apriori Algorithm (Market Basket Analysis)
 - **Objective:** Identify product associations to optimize cross-selling strategies.
