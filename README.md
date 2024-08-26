@@ -60,6 +60,7 @@ The purpose of this insights summary is to answer the key business questions usi
 - **Customer Combinations:** Female Big Spenders aged 25-34 in North America are the most profitable customer segment, with a 29.05% profit ratio. Corporate segment males in North America, aged 55+, also show a strong 20.10% profit ratio.
 
 ## Actionable Recommendations
+The insights above equip stakeholders with actionable data to optimize business strategies, improve customer retention, and drive growth. Here are my recommendations.
 - **Expand Focus on APAC and EU:** Given their strong performance post-expansion, allocate more resources and marketing efforts to these regions to further capitalize on their growth potential.
 - **Optimize Product Portfolio:** Discontinue or re-evaluate underperforming products like the Okidata B401 Printer to reduce losses and streamline the product line.
 - **Enhance Discount Strategies:** Review and adjust discount thresholds to avoid steep profit declines, particularly avoiding discounts over 50% unless strategically justified.
@@ -75,10 +76,8 @@ These Tableau dashboards are designed to provide comprehensive, dynamic insights
 - **Customer Performance Dashboard:** Analyzes customer segments to distinguish between profitable and unprofitable customers, guiding targeted retention efforts.
 
 Feel free to play around with it yourself: [Tableau Dashboard](https://www.youtube.com/watch?v=DsPRlDSlaSQ) 
+![image](https://github.com/user-attachments/assets/e7237875-2d4e-471f-9dd9-7558e2547786)
 
-*These insights equip stakeholders with actionable data to optimize business strategies, improve customer retention, and drive growth.*
-
-![image](https://github.com/user-attachments/assets/ffc20586-fbfc-47a5-8f80-f8c0f65de756)
 
 
 ## Technical Process
