@@ -75,7 +75,7 @@ These Tableau dashboards are designed to provide comprehensive, dynamic insights
 - **Product and Order Performance Dashboard:** Identifies top and underperforming products, enabling data-driven decisions on inventory and marketing strategies.
 - **Customer Performance Dashboard:** Analyzes customer segments to distinguish between profitable and unprofitable customers, guiding targeted retention efforts.
 
-Feel free to play around with it yourself: [Tableau Dashboard](https://www.youtube.com/watch?v=DsPRlDSlaSQ) 
+Feel free to play around with it yourself: [Tableau Dashboard](https://public.tableau.com/app/profile/rodrigo.suarez5210/viz/ExecutiveOverview-YoYPerformance/ExecutiveOverview?publish=yes) 
 ![image](https://github.com/user-attachments/assets/e7237875-2d4e-471f-9dd9-7558e2547786)
 
 
