@@ -32,7 +32,7 @@ This section showcases the integration of advanced data analytics and visualizat
 
 
 #### Apriori Algorithm (Market Basket Analysis)
-*Python Code: Included in the repository (apriori_model.py).*
+*Python Code: Included in the repository (Rule Association Code.py).*
 - **Objective:** Identify product associations to optimize cross-selling strategies.
   -  Discoverd inconclusive results for rule association by products so opted to analyze sub-categories
   -  Found the Binders, Storage, Art, Paper, and Furnishings are bought the most alone.
