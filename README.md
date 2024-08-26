@@ -81,6 +81,7 @@ Feel free to play around with it yourself: [Tableau Dashboard](https://www.youtu
 
 
 ## Technical Process
+All the work below is attached in their separate folders above.
 #### Part 1: Excel Dashboard
 - **Objective:** Created an executive summary dashboard for stakeholders to compare YoY sales performance as my first assignment at SuperStore in 2017.
   - Organized raw data into multiple worksheets (Transactions, Product, Customer, Order details) and **data modeled**.
