@@ -16,7 +16,7 @@ This section showcases the integration of advanced data analytics and visualizat
 - **Objective:** Predict future sales to assist in strategic planning and inventory management.
 - **Insights:**
 
-*Python Code: Included in the repository (arima_model.py).*
+*Python Code: Included in the repository (Sales Forecast Code.py).*
 
 #### Apriori Algorithm (Market Basket Analysis)
 - **Objective:** Identify product associations to optimize cross-selling strategies.
