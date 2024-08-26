@@ -13,10 +13,12 @@ This section showcases the integration of advanced data analytics and visualizat
 
 ## Machine Learning Models
 #### ARIMA Model (Time-Series Forecasting)
-- **Objective:** Predict future sales to assist in strategic planning and inventory management.
-- **Insights:**
-
 *Python Code: Included in the repository (Sales Forecast Code.py).*
+- **Objective:** Predict future sales to assist in strategic planning and inventory management.
+  - **Continent:** In 2022, North America will perform worse than 2021, Africa looks to be plateauing, while all the other continents seems to be increasing with similar season patters as the previous years.
+  - **Categpry:** All categories have a nice incline in the projected sales. Every month in 2022 outperforms the respective months in 2021.
+  - **Segment:** All segments seem to have an increase in the forecasted sales however, the increase in the corporate segment seems to only increase by a little while Consumer seems to have the biggest increase visually.
+
 #### Continent
 <img src="https://github.com/user-attachments/assets/e917c9e6-3363-47a2-aad9-91bb48a803ba" width="600px">
 <img src="https://github.com/user-attachments/assets/a9d76af5-75b4-4cae-8c69-3ff327283c85" width="600px">
@@ -24,18 +26,24 @@ This section showcases the integration of advanced data analytics and visualizat
 #### Product Category
 <img src="https://github.com/user-attachments/assets/649366a6-4cee-41c3-b430-94c86162c99c" width="600px">
 
-
-
 #### Customer Segment
 <img src="https://github.com/user-attachments/assets/5e91a1cd-ea44-4b71-b6ca-e2779fc4b69a" width="600px">
 
 
 
 #### Apriori Algorithm (Market Basket Analysis)
-- **Objective:** Identify product associations to optimize cross-selling strategies.
-- **Insights:**
-
 *Python Code: Included in the repository (apriori_model.py).*
+- **Objective:** Identify product associations to optimize cross-selling strategies.
+  -  Discoverd inconclusive results for rule association by products so opted to analyze sub-categories
+  -  Found the Binders, Storage, Art, Paper, and Furnishings are bought the most alone.
+  -  Examined how strong two subcategories are found bought together and clearly Binders are in many of those transactions given the high confidence.
+
+#### Rule Association for Sub-Categories ordered by Support
+![image](https://github.com/user-attachments/assets/acb3eaf2-1e4a-42c7-9ef9-01d6299abb78)
+
+#### Rule Association for Sub-Categories ordered by Confidence
+![image](https://github.com/user-attachments/assets/08a3aff9-e822-410f-b955-90ad95a4a8a6)
+
 
 ## Tableau Dashboards
 #### Executive Overview
