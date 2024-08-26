@@ -70,7 +70,7 @@ The insights above equip stakeholders with actionable data to optimize business 
 
 
 ## Final Dashboard
-These Tableau dashboards are designed to provide comprehensive, dynamic insights into Superstore’s performance, giving stakeholders the felxibility to derive tailored insights that align with their specific business questions/objectives. By analyzing sales, product performance, and customer profitability, the dashboards enable data-driven decisions that can optimize marketing, inventory, and operational strategies. Here is a small overview of the dashboards:
+These Tableau dashboards are designed to provide comprehensive, dynamic insights into Superstore’s performance, giving stakeholders the flexibility to derive tailored insights that align with their specific business questions/objectives. By analyzing sales, product performance, and customer profitability, the dashboards enable data-driven decisions that can optimize marketing, inventory, and operational strategies. Here is a small overview of the dashboards:
 - **Executive Summary Dashboard:** Offers a year-over-year comparison of key metrics to quickly assess overall performance.
 - **Product and Order Performance Dashboard:** Identifies top and underperforming products, enabling data-driven decisions on inventory and marketing strategies.
 - **Customer Performance Dashboard:** Analyzes customer segments to distinguish between profitable and unprofitable customers, guiding targeted retention efforts.
