@@ -1,8 +1,8 @@
 # Project Overview
-Urban Aisle, founded in 2014, became a leader in e-commerce, specializing in furniture, office supplies, and technology. By 2017, Urban Aisle, a leading e-commerce company, required a robust data infrastructure to support its global expansion and optimize key business functions. Through data engineering, automation, and advanced analytics, this project enabled Urban Aisle to track performance metrics in real-time, identify underperforming products, and refine customer segmentation. The insights gathered from this analysis directly informed strategic decisions, driving profitability and improving operational efficiency across global markets.
+SuperStore, founded in 2014, became a leader in e-commerce, specializing in furniture, office supplies, and technology. By 2017, SuperStore, a leading e-commerce company, required a robust data infrastructure to support its global expansion and optimize key business functions. Through data engineering, automation, and advanced analytics, this project enabled SuperStore to track performance metrics in real-time, identify underperforming products, and refine customer segmentation. The insights gathered from this analysis directly informed strategic decisions, driving profitability and improving operational efficiency across global markets.
 
 ## Business Challenges:
-To ensure Urban Aisle's sustained growth, several key business questions had to be addressed:
+To ensure SuperStore's sustained growth, several key business questions had to be addressed:
 - How do we upgrade the data infrastructure for faster, more reliable reporting?
 - What are the performance trends across sales, profits, and customer growth year-over-year?
 - Which products are underperforming or excelling, and how does discounting affect profit margins?
